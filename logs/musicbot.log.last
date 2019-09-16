@@ -1,0 +1,60 @@
+[159.574985504] 2019-09-16 18:30:15,728 - INFO - launcher: Starting sanity checks
+[160.570144653] 2019-09-16 18:30:15,729 - INFO - launcher: Checking for Python 3.5+
+[160.570144653] 2019-09-16 18:30:15,729 - INFO - launcher: Checking console encoding
+[160.570144653] 2019-09-16 18:30:15,729 - INFO - launcher: Setting console encoding to UTF-8
+[161.568164825] 2019-09-16 18:30:15,730 - INFO - launcher: Ensuring we're in the right environment
+[163.563013077] 2019-09-16 18:30:15,732 - INFO - launcher: Adding local bins/ folder to path
+[2033.589601517] 2019-09-16 18:30:17,602 - INFO - launcher: Required checks passed.
+[2033.589601517] 2019-09-16 18:30:17,602 - INFO - launcher: Optional checks passed.
+[2034.556865692] 2019-09-16 18:30:17,603 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.8297543525695801] 2019-09-16 18:30:19,398 - WARNING - musicbot.config | In config.py::MainThread(8848), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[3.8297543525695801] 2019-09-16 18:30:19,398 - INFO - musicbot.config | In config.py::MainThread(8848), line 132 in run_checks: Using i18n: config/i18n/en.json
+[3.8357391357421875] 2019-09-16 18:30:19,404 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 225 in _setup_logging: Set logging level to INFO
+[3.8447158336639404] 2019-09-16 18:30:19,413 - DEBUG - musicbot.json | In json.py::MainThread(8848), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[4.0701117515563965] 2019-09-16 18:30:19,638 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 90 in __init__: Starting MusicBot version_unknown
+[4.0721077919006348] 2019-09-16 18:30:19,640 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[7.6775465011596680] 2019-09-16 18:30:23,246 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 951 in on_ready: Connection established, ready to go.
+[7.6775465011596680] 2019-09-16 18:30:23,246 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 342 in _cache_app_info: Caching app info
+[7.8938837051391602] 2019-09-16 18:30:23,462 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[7.8978736400604248] 2019-09-16 18:30:23,466 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 789 in _scheck_server_permissions: Checking server permissions
+[7.8978736400604248] 2019-09-16 18:30:23,466 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[7.8978736400604248] 2019-09-16 18:30:23,466 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 797 in _scheck_configs: Validating config
+[7.8988697528839111] 2019-09-16 18:30:23,467 - DEBUG - musicbot.config | In config.py::MainThread(8848), line 236 in async_validate: Validating options...
+[7.8988697528839111] 2019-09-16 18:30:23,467 - DEBUG - musicbot.config | In config.py::MainThread(8848), line 250 in async_validate: Acquired owner id via API
+[7.8988697528839111] 2019-09-16 18:30:23,467 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 800 in _scheck_configs: Validating permissions config
+[7.8998675346374512] 2019-09-16 18:30:23,468 - DEBUG - musicbot.permissions | In permissions.py::MainThread(8848), line 94 in async_validate: Validating permissions...
+[7.8998675346374512] 2019-09-16 18:30:23,468 - DEBUG - musicbot.permissions | In permissions.py::MainThread(8848), line 98 in async_validate: Fixing automatic owner group
+[7.8998675346374512] 2019-09-16 18:30:23,468 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 968 in on_ready: Connected: 622728737439350789/DJ 맥스#3166
+[7.9018619060516357] 2019-09-16 18:30:23,470 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 976 in on_ready: Owner:     526310035135922196/ㅇㄷㄱ#3338
+
+[7.9028587341308594] 2019-09-16 18:30:23,471 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 979 in on_ready: Guild List:
+[7.9038565158843994] 2019-09-16 18:30:23,472 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 983 in on_ready:  - 좀탐라 디코방
+[7.9058506488800049] 2019-09-16 18:30:23,474 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 1039 in on_ready: Not bound to any text channels
+[7.9068477153778076] 2019-09-16 18:30:23,475 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 1055 in on_ready: Not autojoining any voice channels
+[33.3154058456420898] 2019-09-16 18:30:48,883 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 2705 in on_message: 526310035135922196/ㅇㄷㄱ#3338: /j
+[34.7085371017456055] 2019-09-16 18:30:50,277 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 733 in deserialize_queue: Deserializing queue for 622673252833165313
+[35.0745592117309570] 2019-09-16 18:30:50,643 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 425 in get_player: Created player via deserialization for guild 622673252833165313 with 0 entries
+[35.0745592117309570] 2019-09-16 18:30:50,643 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 1934 in cmd_j: Joining 좀탐라 디코방/노래방
+[35.0785460472106934] 2019-09-16 18:30:50,647 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 532 in on_player_stop: Running on_player_stop
+[40.1075317859649658] 2019-09-16 18:30:55,676 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 2705 in on_message: 526310035135922196/ㅇㄷㄱ#3338: /p
+[48.4968483448028564] 2019-09-16 18:31:04,065 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 2705 in on_message: 526310035135922196/ㅇㄷㄱ#3338: /p 호텔델루나 OST
+[51.4667708873748779] 2019-09-16 18:31:07,035 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 1407 in cmd_p: {'_type': 'url', 'url': 'ytsearch:호텔델루나 OST', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '호텔델루나 OST', 'webpage_url_basename': '호텔델루나 OST', 'extractor_key': 'Generic'}
+[55.5252132415771484] 2019-09-16 18:31:11,093 - DEBUG - musicbot.entry | In entry.py::MainThread(8848), line 56 in get_ready_future: Created future for None
+[55.5271692276000977] 2019-09-16 18:31:11,095 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 624 in on_player_entry_added: Running on_player_entry_added
+[55.5282037258148193] 2019-09-16 18:31:11,096 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 709 in serialize_queue: Serializing queue for 622673252833165313
+[55.5291635990142822] 2019-09-16 18:31:11,097 - INFO - musicbot.entry | In entry.py::MainThread(8848), line 207 in _download: Download cached: https://www.youtube.com/watch?v=GdeHJn78jz0
+[57.5402486324310303] 2019-09-16 18:31:13,108 - DEBUG - musicbot.entry | In entry.py::MainThread(8848), line 56 in get_ready_future: Created future for audio_cache\youtube-GdeHJn78jz0-OST_Part.1_~13_+_full_album.m4a
+[57.5412290096282959] 2019-09-16 18:31:13,109 - FFMPEG - musicbot.player | In player.py::MainThread(8848), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-GdeHJn78jz0-OST_Part.1_~13_+_full_album.m4a
+[57.6366050243377686] 2019-09-16 18:31:13,205 - DEBUG - musicbot.player | In player.py::MainThread(8848), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0666EE50> using <discord.voice_client.VoiceClient object at 0x04573C10>
+[57.6386013031005859] 2019-09-16 18:31:13,207 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 460 in on_player_play: Running on_player_play
+[57.6395990848541260] 2019-09-16 18:31:13,208 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 709 in serialize_queue: Serializing queue for 622673252833165313
+[104.6679441928863525] 2019-09-16 18:32:00,236 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 2705 in on_message: 526310035135922196/ㅇㄷㄱ#3338: /help
+[115.6794409751892090] 2019-09-16 18:32:11,248 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 2705 in on_message: 526310035135922196/ㅇㄷㄱ#3338: /skip
+[115.9188268184661865] 2019-09-16 18:32:11,487 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[116.1641781330108643] 2019-09-16 18:32:11,732 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 709 in serialize_queue: Serializing queue for 622673252833165313
+[116.1681671142578125] 2019-09-16 18:32:11,736 - DEBUG - musicbot.bot | In bot.py::MainThread(8848), line 532 in on_player_stop: Running on_player_stop
+[129.9872016906738281] 2019-09-16 18:32:25,555 - INFO - musicbot.bot | In bot.py::MainThread(8848), line 2705 in on_message: 526310035135922196/ㅇㄷㄱ#3338: /shutdown
+[130.540676832] launcher-INFO: All done.

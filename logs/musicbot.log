@@ -1,0 +1,44 @@
+[91.756105423] 2019-09-16 19:31:16,085 - INFO - launcher: Starting sanity checks
+[92.749357224] 2019-09-16 19:31:16,086 - INFO - launcher: Checking for Python 3.5+
+[92.749357224] 2019-09-16 19:31:16,086 - INFO - launcher: Checking console encoding
+[92.749357224] 2019-09-16 19:31:16,086 - INFO - launcher: Setting console encoding to UTF-8
+[93.746900558] 2019-09-16 19:31:16,087 - INFO - launcher: Ensuring we're in the right environment
+[96.740722656] 2019-09-16 19:31:16,090 - INFO - launcher: Adding local bins/ folder to path
+[3088.699102402] 2019-09-16 19:31:19,082 - INFO - launcher: Required checks passed.
+[3090.693473816] 2019-09-16 19:31:19,084 - INFO - launcher: Optional checks passed.
+[3090.693473816] 2019-09-16 19:31:19,084 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[6.0447740554809570] 2019-09-16 19:31:22,038 - WARNING - musicbot.config | In config.py::MainThread(6164), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[6.0467622280120850] 2019-09-16 19:31:22,040 - INFO - musicbot.config | In config.py::MainThread(6164), line 132 in run_checks: Using i18n: config/i18n/en.json
+[6.0497558116912842] 2019-09-16 19:31:22,043 - DEBUG - musicbot.bot | In bot.py::MainThread(6164), line 225 in _setup_logging: Set logging level to INFO
+[6.0547392368316650] 2019-09-16 19:31:22,048 - DEBUG - musicbot.json | In json.py::MainThread(6164), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[6.2655553817749023] 2019-09-16 19:31:22,258 - INFO - musicbot.bot | In bot.py::MainThread(6164), line 90 in __init__: Starting MusicBot version_unknown
+[6.2665541172027588] 2019-09-16 19:31:22,259 - INFO - musicbot.bot | In bot.py::MainThread(6164), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[10.1069898605346680] 2019-09-16 19:31:26,100 - DEBUG - musicbot.bot | In bot.py::MainThread(6164), line 951 in on_ready: Connection established, ready to go.
+[10.1080386638641357] 2019-09-16 19:31:26,101 - DEBUG - musicbot.bot | In bot.py::MainThread(6164), line 342 in _cache_app_info: Caching app info
+[10.3343825340270996] 2019-09-16 19:31:26,327 - DEBUG - musicbot.bot | In bot.py::MainThread(6164), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[10.3433556556701660] 2019-09-16 19:31:26,336 - DEBUG - musicbot.bot | In bot.py::MainThread(6164), line 789 in _scheck_server_permissions: Checking server permissions
+[10.3433556556701660] 2019-09-16 19:31:26,336 - DEBUG - musicbot.bot | In bot.py::MainThread(6164), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[10.3433556556701660] 2019-09-16 19:31:26,336 - DEBUG - musicbot.bot | In bot.py::MainThread(6164), line 797 in _scheck_configs: Validating config
+[10.3443531990051270] 2019-09-16 19:31:26,337 - DEBUG - musicbot.config | In config.py::MainThread(6164), line 236 in async_validate: Validating options...
+[10.3443531990051270] 2019-09-16 19:31:26,337 - DEBUG - musicbot.config | In config.py::MainThread(6164), line 250 in async_validate: Acquired owner id via API
+[10.3443531990051270] 2019-09-16 19:31:26,337 - DEBUG - musicbot.bot | In bot.py::MainThread(6164), line 800 in _scheck_configs: Validating permissions config
+[10.3443531990051270] 2019-09-16 19:31:26,337 - DEBUG - musicbot.permissions | In permissions.py::MainThread(6164), line 94 in async_validate: Validating permissions...
+[10.3443531990051270] 2019-09-16 19:31:26,337 - DEBUG - musicbot.permissions | In permissions.py::MainThread(6164), line 98 in async_validate: Fixing automatic owner group
+[10.3453500270843506] 2019-09-16 19:31:26,338 - INFO - musicbot.bot | In bot.py::MainThread(6164), line 968 in on_ready: Connected: 622728737439350789/DJ 맥스#3166
+[10.3468658924102783] 2019-09-16 19:31:26,340 - INFO - musicbot.bot | In bot.py::MainThread(6164), line 976 in on_ready: Owner:     526310035135922196/ㅇㄷㄱ#3338
+
+[10.3468658924102783] 2019-09-16 19:31:26,340 - INFO - musicbot.bot | In bot.py::MainThread(6164), line 979 in on_ready: Guild List:
+[10.3478620052337646] 2019-09-16 19:31:26,341 - INFO - musicbot.bot | In bot.py::MainThread(6164), line 983 in on_ready:  - 좀탐라 디코방
+[10.3488595485687256] 2019-09-16 19:31:26,342 - INFO - musicbot.bot | In bot.py::MainThread(6164), line 1039 in on_ready: Not bound to any text channels
+[10.3488595485687256] 2019-09-16 19:31:26,342 - INFO - musicbot.bot | In bot.py::MainThread(6164), line 1055 in on_ready: Not autojoining any voice channels
+[417.5721988677978516] 2019-09-16 19:38:13,565 - INFO - musicbot.bot | In bot.py::MainThread(6164), line 2705 in on_message: 526310035135922196/ㅇㄷㄱ#3338: /queue
+[417.5771837234497070] 2019-09-16 19:38:13,570 - ERROR - musicbot.bot | In bot.py::MainThread(6164), line 2834 in on_message: Error in queue: CommandError: 나는 광장채널에 없어...   /j 를 쳐서 광장 채널로 보내줘!
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\music\MusicBot\musicbot\bot.py", line 2733, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\user\Desktop\music\MusicBot\musicbot\bot.py", line 433, in get_player
+    ' %sj 를 쳐서 광장 채널로 보내줘!' % self.config.command_prefix)
+musicbot.exceptions.CommandError: 나는 광장채널에 없어...   /j 를 쳐서 광장 채널로 보내줘!
